@@ -6,10 +6,9 @@
         <meta name="author" content="Camille Benoit" />
         <title>Portfolio - Camille Benoit</title>
         <!-- Boostrap-->
-        <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="css/bootstrap.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
@@ -24,17 +23,17 @@
     <body>
         <nav id ="menu-bar" class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase fixed-top navbar-shrink">
             <div class="container">
-                <a id="menu-bar-camille-benoit"class="navbar-brand" href="#page-top">Camille Benoit</a>
+                <a id="menu-bar-camille-benoit"class="navbar-brand" href="home.html">Camille Benoit</a>
                 <div id="menu-bar-liste" class="collapse navbar-collapse">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="home.html">Accueil</a>
+                            <a class="nav-link active" aria-current="page" href="#pitch">Pitch</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="home.html#projets">Projets</a>
+                        <a class="nav-link" href="#galerie">Galerie</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="home.html#contact">Contact</a>
+                        <a class="nav-link" href="#informations">Informations</a>
                         </li>
                     </ul>
                 </div>
@@ -42,7 +41,7 @@
         </nav>
 
 
-        <div id="ratvage-pres" class="container-fluid p-3 my-3 bg-dark text-white text-center">
+        <div id="pitch" class="container-fluid p-3 my-3 bg-dark text-white text-center">
             <div class="row text-center mx-auto" style="max-width:50%">
                 <img src="asset/img/ratvage_logo.png">
             </div>
@@ -62,6 +61,7 @@
                         <br>
                         <br>
                         De quoi faire des rat-vages ! 
+                        <br>
                     </p>
                     <div id="button-ratvage" >
                         <a type="button" class="btn btn-primary btn-lg active" href="https://oscarafk.itch.io/ratvage" target="_blank" >Page itch.io</a>
@@ -70,7 +70,7 @@
             </div> 
         </div>
 
-        <div id="screenshots-ratvage" class="container-fluid p-3 bg-light text-dark">
+        <div id="galerie" class="container-fluid p-3 bg-light text-dark">
             <h1 text="" class="text-center"><i>Quelques screenshots</i></h1>
             <div class="row my-3 mx-auto text-center">
                 <div id="carouselRatvage" class="carousel slide" data-ride="carousel" data-interval="3000">
@@ -117,7 +117,7 @@
             </div>
         </div>
 
-        <div id="ratvage-infos" class="container-fluid p-3 my-3 bg-dark text-white text-center">
+        <div id="informations" class="container-fluid p-3 my-3 bg-dark text-white text-center">
             <div class="row text-center">
                 <div id="pres-jeu" class="col">
                     <h1 id="ratvage-outils-titre">INFORMATIONS</h1>
@@ -133,12 +133,13 @@
                         <div class="card-body">
                           <h4 class="card-title"><u>Outils</u></h4>
                           <p class="lead">
-                              C++
+                              C#
                               <br>
                               Unity
                               <br>
                               Trello
-                              <br><br>
+                              <br>
+                              Méthode agile<br>
                           </p>
                         </div>
                       </div>
