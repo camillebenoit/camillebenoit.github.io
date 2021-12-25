@@ -83,6 +83,14 @@
   margin-left : 95px;
 }
 
+#pres-jeu{
+  text-align: center;
+  text-justify: inter-word;
+  margin-top : 20px;
+  margin-left : 95px;
+  margin-right : 95px;
+}
+
 #intro-recherche{
   text-align: justify;
   text-justify: inter-word;
