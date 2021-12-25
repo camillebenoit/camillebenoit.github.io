@@ -90,6 +90,10 @@
  
 }
 
+#carouselRavage{
+  display: flex;
+}
+
 #ratvage-intro{
   margin-left : 95px;
   margin-right : 95px;
