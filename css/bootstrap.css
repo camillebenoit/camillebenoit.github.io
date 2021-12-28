@@ -72,22 +72,33 @@
 }
 
 #intro-bonjour{
-  margin-left : 95px;
+  margin-top : 20px;
+}
+
+#camille-benoit{
+  text-align: center;
+  text-justify: inter-word;
   margin-top : 20px;
 }
 
 #intro-etu{
-  text-align: justify;
+  text-align: center;
   text-justify: inter-word;
-  margin-top : 20px;
+  margin-top : 10px;
   margin-left : 95px;
+  margin-right: 95px;
 }
 
+#button-accueil{
+  text-align: center;
+  margin-top : 10px;
+  margin-left : 95px;
+  margin-right: 95px;
+}
 #pres-jeu{
   text-align: center;
   text-justify: inter-word;
   margin-top : 20px;
- 
 }
 
 #carouselRavage{
@@ -99,12 +110,7 @@
   margin-right : 95px;
 }
 
-#intro-recherche{
-  text-align: justify;
-  text-justify: inter-word;
-  margin-top : 10px;
-  margin-left : 95px;
-}
+
 
 #img-camilleb{
   width: 300px;
